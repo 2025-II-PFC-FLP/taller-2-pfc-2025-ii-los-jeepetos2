@@ -2,16 +2,17 @@
 # Taller 2 Programacion Funcional
 
 **Fecha:** 06/10/2025
+
 **Curso:** Programacion Funcional y Concurrente
 
 ---
 
 ## 👥 Integrantes del Grupo
 
-| Nombre Completo  | Código | Rol            | Correo Electrónico        |
-|------------------|  | -------------- | ------------------------- |
-| Juan Stevan Cruz | 2459437 | Líder | juan.stevan.cruz@correounivalle.edu.co |
-| Samuel Ocampo    | 2459437 | Colaborador | ocampo.samuel@correounivalle.edu.co |
+| Nombre Completo  | Código   | Rol            | Correo Electrónico                     |
+|------------------|----------|----------------|----------------------------------------|
+| Juan Stevan Cruz | 2459437  | Líder          | juan.stevan.cruz@correounivalle.edu.co |
+| Samuel Ocampo    | 2459437  | Colaborador    | ocampo.samuel@correounivalle.edu.co    |
 
 ---
 
