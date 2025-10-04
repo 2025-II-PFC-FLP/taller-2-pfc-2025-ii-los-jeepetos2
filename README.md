@@ -9,10 +9,10 @@
 
 ## 👥 Integrantes del Grupo
 
-| Nombre Completo  | Código   | Rol            | Correo Electrónico                     |
-|------------------|----------|----------------|----------------------------------------|
-| Juan Stevan Cruz | 2459437  | Líder          | juan.stevan.cruz@correounivalle.edu.co |
-| Samuel Ocampo    | 2459437  | Colaborador    | ocampo.samuel@correounivalle.edu.co    |
+| Nombre Completo  | Código  | Rol            | Correo Electrónico                     |
+|------------------|---------|----------------|----------------------------------------|
+| Juan Stevan Cruz | 2459437 | Líder          | juan.stevan.cruz@correounivalle.edu.co |
+| Samuel Ocampo    | 2459503 | Colaborador    | ocampo.samuel@correounivalle.edu.co    |
 
 ---
 
