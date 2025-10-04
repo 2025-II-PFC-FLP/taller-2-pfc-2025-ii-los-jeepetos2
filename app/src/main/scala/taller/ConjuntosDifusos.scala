@@ -19,15 +19,15 @@ class ConjuntosDifusos {
     (x: Int) => math.max(cd1(x), cd2(x))
   }
   def interseccion(cd1: ConjDifuso, cd2: ConjDifuso): ConjDifuso = {
-    // Implementación de la función intersección
-
+    (x: Int) => math.min(cd1(x), cd2(x))
   }
   def inclusion(cd1: ConjDifuso, cd2: ConjDifuso): Boolean = {
-    // Implementación de la función inclusión
+    val universo_discurso = 0 to 10
+    universo_discurso.forall(x => cd1(x) <= cd2(x))
 
   }
   def igualdad(cd1: ConjDifuso, cd2: ConjDifuso): Boolean = {
-    // Implementación de la función igualdad
-
+    val universo_discurso = 0 to 10
+    universo_discurso.forall(x => cd1(x) == cd2(x))
   }
 }
