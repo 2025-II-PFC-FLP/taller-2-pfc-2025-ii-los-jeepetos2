@@ -39,24 +39,12 @@ class ConjuntosDifusos {
 
 ## Definiciones matemáticas
 
-### 1. Pertenencia
-
-\[
-\operatorname{pertenece}(x, S) = S(x)
-\]
-
-Devuelve el grado de pertenencia del elemento \( x \) al conjunto difuso \( S \).
-
-### 2. Conjunto Difuso "Grande"
+### 1. Conjunto Difuso "Grande"
 
 Genera un conjunto difuso que modela el concepto de “números grandes”.
 
 \[
-\operatorname{grande}(d, e)(x) =
-\begin{cases}
-0 & \text{si } x \leq 0 \\
-\left(\frac{x}{x + d}\right)^e & \text{si } x > 0
-\end{cases}
+f_{d,e}(n) = \left(\frac{n}{n + d}\right)^e, \quad n \in \mathbb{Z},\ d \ge 1,\ e > 0
 \]
 
 Donde:
@@ -64,46 +52,42 @@ Donde:
 - \( e > 0 \) controla la forma de la curva.
 - A medida que \( x \to \infty \), \( f_{d,e}(x) \to 1 \).
 
-### 3. Complemento de un Conjunto Difuso
+### 2. Complemento de un Conjunto Difuso
 
 \[
-\operatorname{complemento}(S)(x) = 1 - S(x)
+f_{\neg S}(x) = 1 - f_S(x)
 \]
 
 Representa el grado de **no pertenencia** de \( x \) al conjunto \( S \).
 
-### 4. Unión de Conjuntos Difusos
+### 3. Unión de Conjuntos Difusos
 
 \[
-\operatorname{union}(S_1, S_2)(x) = \max
-\left( S_1(x), S_2(x) \right)
+f_{S_1\cup S_2}(x) = \max(f_{S_1}(x), f_{S_2}(x))
 \]
 
 Representa el grado de pertenencia de \( x \) al conjunto que resulta de la unión de \( S_1 \) y \( S_2 \).
 
-### 5. Intersección de Conjuntos Difusos
+### 4. Intersección de Conjuntos Difusos
 
 \[
-\operatorname{interseccion}(S_1, S_2)(x) = \min
-\left( S_1(x), S_2(x) \right)
+f_{S_1\cap S_2}(x) = \min(f_{S_1}(x), f_{S_2}(x))
 \]
 
 Representa el grado de pertenencia de \( x \) al conjunto que resulta de la intersección de \( S_1 \) y \( S_2 \).
 
-### 6. Inclusión de Conjuntos Difusos
+### 5. Inclusión de Conjuntos Difusos
 
 \[
-\operatorname{inclusion}(S_1, S_2) = \forall x
-\left( S_1(x) \leq S_2(x) \right)
+S_1 \subseteq S_2 \iff \forall x \in U,\ f_{S_1}(x) \le f_{S_2}(x)
 \]
 
 Indica si el conjunto difuso \( S_1 \) está incluido en \( S_2 \) para todos los elementos del universo de discurso.
 
-### 7. Igualdad de Conjuntos Difusos
+### 6. Igualdad de Conjuntos Difusos
 
 \[
-\operatorname{igualdad}(S_1, S_2) = \forall x
-\left( S_1(x) = S_2(x) \right)
+S_1 = S_2 \iff S_1 \subseteq S_2 \land S_2 \subseteq S_1
 \]
 
 Indica si los conjuntos difusos \( S_1 \) y \( S_2 \) son iguales para todos los elementos del universo de discurso.
