@@ -24,7 +24,6 @@ class ConjuntosDifusos {
   def inclusion(cd1: ConjDifuso, cd2: ConjDifuso): Boolean = {
     val universo_discurso = 0 to 10
     universo_discurso.forall(x => cd1(x) <= cd2(x))
-
   }
   def igualdad(cd1: ConjDifuso, cd2: ConjDifuso): Boolean = {
     val universo_discurso = 0 to 10
