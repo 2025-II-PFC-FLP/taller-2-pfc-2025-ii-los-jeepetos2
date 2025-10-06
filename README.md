@@ -18,5 +18,6 @@
 
 ## 📌 Descripción de la Asignación
 
-[Breve párrafo explicando el propósito y objetivos del taller (4-6 líneas). Ejemplo:]
-_"Este taller busca analizar [tema principal] mediante [metodología]. Los objetivos incluyen [objetivo 1], [objetivo 2] y [objetivo 3], aplicando conceptos vistos en clase como [concepto relevante]."_
+_"En este taller 2 se busca profundizar sobre los conjuntos difusos, 
+sus diferentes operaciones, su forma de representarlos en la programacion funcional 
+aplicando los conceptos vistos en clase como lo fue las funciones de alto orden y operaciones matematicas."_
